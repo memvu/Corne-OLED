@@ -220,10 +220,10 @@
 
             display-name = "Base";
             bindings = <
-&homerow_mod RIGHT_CONTROL TAB  &kp Q  &kp W  &kp F       &kp P  &kp B                            &kp J      &kp L                                     &kp U      &kp Y       &kp BACKSPACE  &kp C_MUTE
-&kp LEFT_ALT                    &kp A  &kp R  &kp S       &kp T  &kp G                            &kp M      &kp N                                     &kp E      &kp I       &kp O          &kp ENTER
-&kp LEFT_GUI                    &kp Z  &kp X  &kp C       &kp D  &kp V                            &kp K      &kp H                                     &kp COMMA  &kp PERIOD  &kp LEFT       &kp RIGHT
-                                              &kp DELETE  &mo 1  &homerow_mod LEFT_SHIFT SPACE    &kp SPACE  &homerow_mod LS(LA(LC(LEFT_GUI))) ESCAPE  &kp TAB
+&homerow_mod RIGHT_CONTROL TAB  &kp Q  &kp W  &kp F       &kp P  &kp B                            &kp J                          &kp L                                     &kp U      &kp Y       &kp BACKSPACE  &kp C_MUTE
+&kp LEFT_ALT                    &kp A  &kp R  &kp S       &kp T  &kp G                            &kp M                          &kp N                                     &kp E      &kp I       &kp O          &kp ENTER
+&kp LEFT_GUI                    &kp Z  &kp X  &kp C       &kp D  &kp V                            &kp K                          &kp H                                     &kp COMMA  &kp PERIOD  &kp LEFT       &kp RIGHT
+                                              &kp DELETE  &mo 1  &homerow_mod LEFT_SHIFT SPACE    &homerow_mod LEFT_SHIFT SPACE  &homerow_mod LS(LA(LC(LEFT_GUI))) ESCAPE  &kp TAB
             >;
         };
 
